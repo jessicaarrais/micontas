@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: beige;
+}
+
+p {
+    font-weight: 600;
+    color: #7e7a7a;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    background-color: #29232d;
+}
+
+#overlay {
+    position: absolute;
+    z-index: 999;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+}
+
+#container {
+    padding: 28px;
+}
+
+#header {
+    margin-bottom: 15px;
+}
+
+#header .img-voltar {
+    width: 23px;
+}
+
+#header .img-extrato {
+    width: 34px;
+}
+
+#header div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#header h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.appointment {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.appointment :last-child .event {
+    padding-bottom: 70px;
+}
+
+.circle {
+    position: absolute;
+    background-color: white;
+    border-radius: 100%;
+    border: 2px solid red;
+    left: calc(25% - 5px);
+    top: -5px;
+    width: 12px;
+    height: 12px;
+}
+
+.time {
+    width: 25%;
+    margin-top: -8px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.event {
+    padding: 30px 0 30px 25px;
+    border-left: 2px solid red;
+    width: 70%;
+}
+
+/* componente saldo  */
+
+.balance {
+    background-color: beige;
+    height: 90px;
+    border-radius: 5px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+/* componente navegação fixa */
+
+.payments {
+    display: flex;
+    height: 14%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.payments img {
+    width: 50%;
+}
+
+.cardPayments {
+    background-color: #4c4651;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
