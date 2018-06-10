@@ -5,15 +5,21 @@ import card from './card.css'
 
 function Cards(props) {
   return (
-    <div className="cards">
+    <div className="partners">
       <Link to="/folha">
-        <Card cardClass="card cardPayroll">Folha de Pagamento</Card>
+        <Card cardClass="cardPartners">
+          <img src="buttons/parceriros.png" alt="Parceiros" />
+        </Card>
       </Link>
       <Link to="/contas">
-        <Card cardClass="card cardAccount">Contas</Card>
+        <Card cardClass="cardPartners">
+          <img src="buttons/fornecedores.png" alt="Fornecedores" />
+        </Card>
       </Link>
       <Link to="/boletos">
-        <Card cardClass="card cardBoletos">Boletos</Card>
+        <Card cardClass="cardPartners">
+          <img src="buttons/folha_pagamento.png" alt="Folha de Pagamentos" />
+        </Card>
       </Link>
     </div>
   )

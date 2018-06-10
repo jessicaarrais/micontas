@@ -4,7 +4,9 @@ import Landing from './screens/landing/Landing'
 import Home from './screens/home/Home'
 import Register from './screens/register/Register'
 import Payroll from './screens/payroll/Payroll'
+import Perfil from './screens/perfil/Perfil'
 import Extrato from './screens/extrato/Extrato'
+import NotFound from './screens/not-found/NotFound'
 import logo from './logo.svg';
 import './App.css';
 
@@ -38,7 +40,7 @@ class App extends Component {
         <Switch>
           <Route exact path='/' render={props => (
             this.state.user ?
-              <Home onClickLogoff={this.onLogoff} user={this.state.user} /> :
+              <Home user={this.state.user} /> :
               <Redirect to="/landing" />
           )} />
 
@@ -48,8 +50,12 @@ class App extends Component {
           <Route path='/registrar' render={props => (
             <Register onClickLogin={this.onLogin} history={props.history} />
           )} />
-          <Route path='/folha' component={Payroll} />
+          <Route path='/folha' component={Payroll}/>
           <Route path='/extrato' component={Extrato} />
+          <Route path='/perfil'  render={props => (
+            <Perfil onClickLogoff={this.onLogoff}  />
+          )} />
+          <Route component={NotFound} />
 
         </Switch>
       </div>

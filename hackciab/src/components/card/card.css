@@ -1,14 +1,1 @@
-.card {
-  width: 80px;
-  height: 80px;
-  border: 1px solid gray;
-  border-radius: 5px;
-}
-
-.cards {
-  width: 280px;
-  margin: 8px auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 80px);
-  grid-gap: 20px;
-}
+/* componentes partners */

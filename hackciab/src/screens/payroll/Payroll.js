@@ -3,7 +3,9 @@ import './payroll.css'
 
 function Payroll() {
   return (
-    <h1>Conta Salário Folha de pagamento</h1>
+    <div className="payroll">
+      <h1>Conta Salário Folha de pagamento</h1>
+    </div>
   )
 }
 

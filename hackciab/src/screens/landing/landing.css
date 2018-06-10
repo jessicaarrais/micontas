@@ -3,11 +3,11 @@
 }
 .landing {
   width: 320px;
-  margin-top: 40px;
+  margin: 40px auto 0;
 }
 .logo {
   width: 280px;
-  margin-bottom: 16px;
+  margin: 0 auto 16px;
 }
 .landing label {
   display: block;
