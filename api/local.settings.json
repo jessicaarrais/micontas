@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_EXTENSION_VERSION": "~1",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=micontas995a;AccountKey=pkoCLSuC0rBN3aIUppqYk2v2dSV7/AzKV5jwJrPM5jeiJGVLd46gB1krrw/Z5SMby26nlkodxxCdBhwBgnMA5A==",
+    "WEBSITE_NODE_DEFAULT_VERSION": "6.5.0",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=micontas995a;AccountKey=pkoCLSuC0rBN3aIUppqYk2v2dSV7/AzKV5jwJrPM5jeiJGVLd46gB1krrw/Z5SMby26nlkodxxCdBhwBgnMA5A==",
+    "WEBSITE_CONTENTSHARE": "micontas995a",
+    "WEBSITE_SITE_NAME": "micontas",
+    "WEBSITE_SLOT_NAME": "Production",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=micontas995a;AccountKey=pkoCLSuC0rBN3aIUppqYk2v2dSV7/AzKV5jwJrPM5jeiJGVLd46gB1krrw/Z5SMby26nlkodxxCdBhwBgnMA5A=="
+  }
+}
