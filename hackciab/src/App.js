@@ -11,20 +11,24 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      user: false,
+      user: JSON.parse(localStorage.getItem('user')),
     }
   }
 
-  onLogin = () => {
+  onLogin = (user) => {
+    localStorage.setItem('user', JSON.stringify(user))
     this.setState({
       user: true,
     })
+    console.log("entrou", user)
   }
 
   onLogoff = () => {
+    localStorage.clear()
     this.setState({
       user: false,
     })
+    console.log("saiu")
   }
 
   render() {
@@ -32,13 +36,17 @@ class App extends Component {
       <div className="App">
         <Switch>
           <Route exact path='/' render={props => (
-            this.state.user ? <Home /> : <Redirect to="/landing" />
+            this.state.user ?
+              <Home onClickLogoff={this.onLogoff} user={this.state.user} /> :
+              <Redirect to="/landing" />
           )} />
 
           <Route path='/landing' render={props => (
-            <Landing onClickLogin={this.onLogin} onClickLogoff={this.onLogoff} />
+            <Landing onClickLogin={this.onLogin} user={this.state.user} history={props.history}/>
           )} />
-          <Route path='/registrar' component={Register} />
+          <Route path='/registrar' render={props => (
+            <Register onClickLogin={this.onLogin} history={props.history} />
+          )} />
           <Route path='/folha' component={Payroll} />
 
         </Switch>

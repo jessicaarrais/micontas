@@ -1,10 +1,35 @@
+* {
+  box-sizing: border-box;
+}
 .landing {
-  margin-top: 80px;
+  width: 320px;
+  margin-top: 40px;
 }
 .logo {
   width: 280px;
+  margin-bottom: 16px;
+}
+.landing label {
+  display: block;
+  margin: 16px auto 4px;
+  width: 280px;
+  text-align: left;
+}
+.inputLand {
+  display: block;
+  margin: 0 auto;
+  width: 280px;
+  height: 40px;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+.inputLand:focus {
+  outline: none;
+  border-color: green;
 }
 .btnLand {
+  display: block;
+  margin: 24px auto;
   width: 280px;
   height: 48px;
   color: white;
@@ -17,4 +42,12 @@
 }
 .landing p {
   font-size: 14px;
+}
+.erro {
+  display: block;
+  width: 280px;
+  margin: 4px auto;
+  text-align: left;
+  color: red;
+  font-size: 12px;
 }
