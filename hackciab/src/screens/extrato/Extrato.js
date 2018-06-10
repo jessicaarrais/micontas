@@ -45,7 +45,7 @@ export default class Extrato extends React.Component {
             <img className="img-voltar" src="./images/buttons/voltarxhdpi.png" alt="" />
             <div>
               <img className="img-extrato" src="./images/buttons/extratosxhdpi.png" alt="" />
-              <h1>Extrato Financeiro</h1>
+              <h1 className="timeP">Extrato Financeiro</h1>
             </div>
           </div>
           <div className="balance">
@@ -56,13 +56,13 @@ export default class Extrato extends React.Component {
               this.state.appointments.map(appointment =>
                 <div className="appointment" key={appointment.date}>
                   <div className="time">
-                    <p>{appointment.date}</p>
-                    <p>{appointment.hour}</p>
+                    <p className="timeP">{appointment.date}</p>
+                    <p className="timeP">{appointment.hour}</p>
                   </div>
                   <div className="circle"></div>
                   <div className="event">
-                    <h2>{appointment.payment}</h2>
-                    <p>{appointment.title}</p>
+                    <h2 className="timeP">{appointment.payment}</h2>
+                    <p className="timeP">{appointment.title}</p>
                   </div>
                 </div>
               )

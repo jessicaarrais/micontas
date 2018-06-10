@@ -11,7 +11,12 @@ h2 {
     color: beige;
 }
 
-p {
+h1.timeP {
+  font-size: 24px;
+}
+
+p.timeP, h2.timeP {
+    font-size: 14px;
     font-weight: 600;
     color: #7e7a7a;
     margin: 0;

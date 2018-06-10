@@ -3,15 +3,16 @@
 }
 .landing {
   width: 320px;
-  margin: 40px auto 0;
+  margin: 32px auto 0;
 }
-.logo {
-  width: 280px;
-  margin: 0 auto 16px;
+.logoLand {
+  width: 140px;
+  margin: 0 auto 8px;
 }
 .landing label {
+  color: white;
   display: block;
-  margin: 16px auto 4px;
+  margin: 8px auto 4px;
   width: 280px;
   text-align: left;
 }

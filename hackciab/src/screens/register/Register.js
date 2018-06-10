@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import logo from './logo.png'
+import logo from '../../images/buttons/logo_vertical_branco.png'
 import '../landing/landing.css'
 
 class Register extends Component {
@@ -44,18 +44,12 @@ class Register extends Component {
     return (
       <div className="landing">
         <form onSubmit={this.handleSubmit}>
-          <img className="logo" src={logo} />
+          <img className="logoLand" src={logo} />
 
           <label htmlFor="name">Nome completo:</label>
           <input className="inputLand" type="text" id="name" onChange={this.handleChange}/>
           {this.state.user.error && this.state.user.error.name === 'name' && (
             <p className="erro">{this.state.user.error.msg}</p>
-          )}
-
-          <label htmlFor="cpf">cpf:</label>
-          <input className="inputLand" type="text" id="cpf" onChange={this.handleChange}/>
-          {this.state.user.error && this.state.user.error.name === 'cpf' && (
-            <p className="erro" >{this.state.user.error.msg}</p>
           )}
 
           <label htmlFor="password">Senha:</label>

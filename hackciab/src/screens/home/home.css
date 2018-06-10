@@ -10,23 +10,24 @@ body {
 /* Componente logo */
 .logo {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 16px;
 }
 .logo img {
-    height: 50px;
+    height: 60px;
 }
 .logo p {
-    font-size: 32px;
+    color: beige;
+    font-size: 16px;
+    font-weight: lighter;
     margin: 0;
 }
 /* componente saldo  */
-.balance {
+.balanceHome {
     background-color: beige;
     height: 90px;
     border-radius: 5px;
-    margin-top: 24px;
     display: flex;
     align-items: center;
     font-size: 44px;
@@ -39,6 +40,9 @@ body {
     border-radius: 5px;
     margin-top: 8px;
 }
+.stm-img {
+  height: 50px;
+}
 /* status */
 .status {
     background-color: #4c4651;
@@ -50,10 +54,11 @@ body {
     margin-top: 5px;
 }
 .status p {
+    text-align: center;
     margin: 5px;
-    font-size: 22px;
-    color: black;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: lighter;
+    color: beige;
 }
 /* componentes partners */
 .partners {
@@ -75,18 +80,15 @@ body {
 .payments {
     width: 100%;
     display: flex;
-    height: 14%;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5px;
-}
-.payments img {
-    width: 50%;
-}
-.cardPayments {
     background-color: #4c4651;
-    display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px;
+    margin-top: 5px;
+}
+.payments a {
+  width: 25%;
+}
+img.payImg {
+  height: 40px;
+  margin: 7px;
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import logo from './logo.png'
+import logo from '../../images/buttons/logo_vertical_branco.png'
 import './landing.css'
 
 class Landing extends Component {
@@ -46,7 +46,7 @@ class Landing extends Component {
     return (
       <div className="landing">
         <form onSubmit={this.handleSubmit}>
-          <img className="logo" src={logo} />
+          <img className="logoLand" src={logo} />
 
           <label htmlFor="account">Conta:</label>
           <input className="inputLand" type="text" id="account" onChange={this.handleChange}/>
