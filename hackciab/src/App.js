@@ -4,6 +4,7 @@ import Landing from './screens/landing/Landing'
 import Home from './screens/home/Home'
 import Register from './screens/register/Register'
 import Payroll from './screens/payroll/Payroll'
+import Extrato from './screens/extrato/Extrato'
 import logo from './logo.svg';
 import './App.css';
 
@@ -48,6 +49,7 @@ class App extends Component {
             <Register onClickLogin={this.onLogin} history={props.history} />
           )} />
           <Route path='/folha' component={Payroll} />
+          <Route path='/extrato' component={Extrato} />
 
         </Switch>
       </div>
