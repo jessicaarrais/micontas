@@ -1,6 +1,7 @@
 # Frontend application files
 # ==========================
 build/
+coverage/
 node_modules/
 
 # General
