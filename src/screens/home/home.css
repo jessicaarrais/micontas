@@ -1,93 +1,113 @@
 body {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 .cards {
-    margin: 0 auto;
-    width: 280px;
+  margin: 0 auto;
+  width: 280px;
 }
+
 /* Componente logo */
+
 .logo {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 16px;
 }
+
 .logo img {
-    height: 60px;
+  height: 60px;
 }
+
 .logo p {
-    color: beige;
-    font-size: 16px;
-    font-weight: lighter;
-    margin: 0;
+  color: beige;
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 0;
 }
+
 /* componente saldo  */
+
 .balanceHome {
-    background-color: beige;
-    height: 90px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    font-size: 44px;
-    font-weight: bold;
+  background-color: beige;
+  height: 90px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 44px;
+  font-weight: bold;
 }
+
 /* componente statement-account  */
+
 .statement-account {
-    background-color: #4c4651;
-    height: 212px;
-    border-radius: 5px;
-    margin-top: 8px;
+  background-color: #4c4651;
+  height: 212px;
+  border-radius: 5px;
+  margin-top: 8px;
 }
+
 .stm-img {
   height: 50px;
 }
+
 /* status */
+
 .status {
-    background-color: #4c4651;
-    height: 83px;
-    display: flex;
-    text-align: left;
-    align-items: center;
-    border-radius: 5px;
-    margin-top: 5px;
+  background-color: #4c4651;
+  height: 83px;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 5px;
 }
+
 .status p {
-    text-align: center;
-    margin: 5px;
-    font-size: 16px;
-    font-weight: lighter;
-    color: beige;
+  text-align: center;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: lighter;
+  color: beige;
 }
+
 /* componentes partners */
+
 .partners {
-    display: flex;
-    height: 14%;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5px;
+  display: flex;
+  height: 14%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
 }
+
 .partners img {
-    width: 100%;
+  width: 100%;
 }
+
 .cardPartners {
-    background-color: #4c4651;
-    border-radius: 5px;
-    margin: 5px;
+  background-color: #4c4651;
+  border-radius: 5px;
+  margin: 5px;
 }
+
 /* componente navegação fixa */
+
 .payments {
-    width: 100%;
-    display: flex;
-    background-color: #4c4651;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 5px;
+  width: 100%;
+  display: flex;
+  background-color: #4c4651;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
 }
+
 .payments a {
   width: 25%;
 }
+
 img.payImg {
   height: 40px;
   margin: 7px;

@@ -1,14 +1,17 @@
 * {
   box-sizing: border-box;
 }
+
 .landing {
   width: 320px;
   margin: 32px auto 0;
 }
+
 .logoLand {
   width: 140px;
   margin: 0 auto 8px;
 }
+
 .landing label {
   color: white;
   display: block;
@@ -16,6 +19,7 @@
   width: 280px;
   text-align: left;
 }
+
 .inputLand {
   display: block;
   margin: 0 auto;
@@ -24,10 +28,12 @@
   border: 1px solid red;
   border-radius: 5px;
 }
+
 .inputLand:focus {
   outline: none;
   border-color: green;
 }
+
 .btnLand {
   display: block;
   margin: 24px auto;
@@ -41,9 +47,11 @@
   border-radius: 5px;
   background-color: black;
 }
+
 .landing p {
   font-size: 14px;
 }
+
 .erro {
   display: block;
   width: 280px;

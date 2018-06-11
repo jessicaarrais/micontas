@@ -17,7 +17,7 @@ function ButtonBar(props) {
           <img src="buttons/configuração_fixa.png" alt="" />
         </div>
       </div>
-</nav>
+    </nav>
   )
 }
 
